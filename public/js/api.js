@@ -1,7 +1,7 @@
 // api.js - Giao tiếp với backend API
 import { showToast } from './utils.js';
 
-const BASE_URL = ''; // cùng origin
+const BASE_URL = 'https://unison-disarray-easel.ngrok-free.dev/'; // cùng origin
 
 export async function uploadFiles(formData, onProgress) {
     return new Promise((resolve, reject) => {
